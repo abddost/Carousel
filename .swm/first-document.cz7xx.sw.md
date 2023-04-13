@@ -5,7 +5,26 @@ file_version: 1.1.2
 app_version: 1.6.2
 ---
 
-something
+**something**
+
+<br/>
+
+
+<!-- NOTE-swimm-snippet: the lines below link your snippet to Swimm -->
+### 📄 src/App.tsx
+```tsx
+7        const fetchImages = async () => {
+8          const res = await fetch("http://localhost:3001/images");
+9      
+10         const data = await res.json();
+11     
+12         setImages(data);
+13       };
+```
+
+<br/>
+
+<div align="center"><img src="https://firebasestorage.googleapis.com/v0/b/swimmio-content/o/repositories%2FZ2l0aHViJTNBJTNBQ2Fyb3VzZWwlM0ElM0Fkb3N0b24xMQ%3D%3D%2F73865523-1427-4598-ba18-f3a4692c5b23.jpeg?alt=media&token=946aa3d0-7f8e-441c-9076-e598471f143e" style="width:'100%'"/></div>
 
 <br/>
 
